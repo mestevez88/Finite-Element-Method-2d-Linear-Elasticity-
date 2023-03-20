@@ -15,14 +15,13 @@ from FEM2 import nd as nd2
 from FEM3 import nd as nd3
 from FEM4 import nd as nd4
 
-ndls = [nd1, nd2, nd3, nd4]
-
 #import K matrices
 from FEM1 import K as K1
 from FEM2 import K as K2
 from FEM3 import K as K3
 from FEM4 import K as K4
 
+ndls = [nd1, nd2, nd3, nd4]
 Kls = [K1, K2, K3, K4]
 
 C = np.array([[0,1], [1,1], [2,1], [0,.5], [1,.6], [2,.7], [0,0], [1,.25], [2,.5]]) #esto esta super chafa, cambiarlo
