@@ -1,1 +1,1 @@
-# Finite Element Formulation-Linear Elasticity 2D
+# Finite Element Formulation for 2d Linear Elasticity
