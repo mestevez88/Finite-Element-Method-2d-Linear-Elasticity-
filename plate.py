@@ -11,12 +11,12 @@ import matplotlib.pyplot as plt
 
 #import node dict
 from FEM1 import nd as nd1
-from FEM2 import nd as nd2
-from FEM3 import nd as nd3
-from FEM4 import nd as nd4
 from FEM1 import K as K1
+from FEM2 import nd as nd2
 from FEM2 import K as K2
+from FEM3 import nd as nd3
 from FEM3 import K as K3
+from FEM4 import nd as nd4
 from FEM4 import K as K4
 
 ndls = [nd1, nd2, nd3, nd4]
